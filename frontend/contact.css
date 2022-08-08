@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+    .nav:hover{
+        background-color: rgb(206, 176, 87);
+    
+    }
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+a{
+    text-decoration: rgb(46, 61, 174);
+    color: brown;
+}
+p{
+    color: blue;
+}
+.img{
+    width: 50px;
+    margin-top: 0px;
+}
